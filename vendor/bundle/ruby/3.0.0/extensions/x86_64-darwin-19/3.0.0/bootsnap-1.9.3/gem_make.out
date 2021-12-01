@@ -1,0 +1,15 @@
+current directory: /Users/callum.ahern/LearningProjects/Rails/alpha-blog/alpha-blog/vendor/bundle/ruby/3.0.0/gems/bootsnap-1.9.3/ext/bootsnap
+/Users/callum.ahern/.rbenv/versions/3.0.2/bin/ruby -I /Users/callum.ahern/.rbenv/versions/3.0.2/lib/ruby/3.0.0 -r ./siteconf20211201-9161-4dnq9p.rb extconf.rb
+creating Makefile
+
+current directory: /Users/callum.ahern/LearningProjects/Rails/alpha-blog/alpha-blog/vendor/bundle/ruby/3.0.0/gems/bootsnap-1.9.3/ext/bootsnap
+make DESTDIR\= clean
+
+current directory: /Users/callum.ahern/LearningProjects/Rails/alpha-blog/alpha-blog/vendor/bundle/ruby/3.0.0/gems/bootsnap-1.9.3/ext/bootsnap
+make DESTDIR\=
+compiling bootsnap.c
+linking shared-object bootsnap/bootsnap.bundle
+
+current directory: /Users/callum.ahern/LearningProjects/Rails/alpha-blog/alpha-blog/vendor/bundle/ruby/3.0.0/gems/bootsnap-1.9.3/ext/bootsnap
+make DESTDIR\= install
+/usr/local/bin/ginstall -c -m 0755 bootsnap.bundle ./.gem.20211201-9161-e0sgwe/bootsnap

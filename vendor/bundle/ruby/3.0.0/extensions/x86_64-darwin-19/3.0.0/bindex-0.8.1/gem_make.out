@@ -1,0 +1,15 @@
+current directory: /Users/callum.ahern/LearningProjects/Rails/alpha-blog/alpha-blog/vendor/bundle/ruby/3.0.0/gems/bindex-0.8.1/ext/skiptrace
+/Users/callum.ahern/.rbenv/versions/3.0.2/bin/ruby -I /Users/callum.ahern/.rbenv/versions/3.0.2/lib/ruby/3.0.0 -r ./siteconf20211201-9161-bfjcub.rb extconf.rb
+creating Makefile
+
+current directory: /Users/callum.ahern/LearningProjects/Rails/alpha-blog/alpha-blog/vendor/bundle/ruby/3.0.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= clean
+
+current directory: /Users/callum.ahern/LearningProjects/Rails/alpha-blog/alpha-blog/vendor/bundle/ruby/3.0.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\=
+compiling cruby.c
+linking shared-object skiptrace/internal/cruby.bundle
+
+current directory: /Users/callum.ahern/LearningProjects/Rails/alpha-blog/alpha-blog/vendor/bundle/ruby/3.0.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= install
+/usr/local/bin/ginstall -c -m 0755 cruby.bundle ./.gem.20211201-9161-29iwvo/skiptrace/internal
