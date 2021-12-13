@@ -4,7 +4,15 @@
   background-repeat: no-repeat;
   background-position: center center;
 }
-
+body {
+  background-color: rgb(216, 212, 212);
+}
 #home-container {
   margin-top: 25px;
+}
+.ml {
+  margin-left: 13.5rem;
+}
+.tac {
+  margin-left: 22em;
 }
