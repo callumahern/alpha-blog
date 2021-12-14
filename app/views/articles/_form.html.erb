@@ -1,15 +1,8 @@
-<div class="container">
-  <% if @article.errors.any? %>
-    <p>You cannot possibly post this, be more verbose!</p>
-      <% @article.errors.full_messages.each do |msg| %>
-        <ul>
-          <li><%= msg %></li>
-        </ul>
-      <% end %>
-  <% end %>
+
   
   <div class="row justify-content-center">
     <div class="col-10">
+    <%= render 'shared/errors', obj: @article %>
       <%= form_with(model: @article, local: true, class: 'shadow p-3 mb-5 bg-info rounded') do |f| %>
         <div class="form-group row"> 
           <%= f.label :title, class: 'col-2 col-form-label text-light' %><br/>
@@ -23,7 +16,7 @@
             <%= f.text_area :description, rows: 10, class: "form-control shadow rounded", placeholder: 'Description of article' %>
           </div>
         </div>
-        <div class="form-group row justify-content-center col-4 tac">
+        <div class="form-group row justify-content-center col-6 tac">
         <%= f.submit class: 'btn btn-outline-light btn-lg' %>
       </div>
     </div>

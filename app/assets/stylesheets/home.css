@@ -16,3 +16,12 @@ body {
 .tac {
   margin-left: 22em;
 }
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
