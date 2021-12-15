@@ -1,0 +1,14 @@
+<h1 class="text-center mt-4"><%= @user.username %>'s profile</h1>
+
+
+<%= gravatar_for @user, size: 200 %>
+<%= link_to 'Update your profile', edit_user_path, class: 'btn btn-outline-success ml2' %>
+
+<h3 class="text-center mt-4>Articles</h3>
+
+<%= render 'articles/article' %>
+
+
+<div class="mb-5">
+      <%= link_to '[ Cancel and return to user listing ]', users_path, class: 'text-info form-group row justify-content-center' %>
+</div>

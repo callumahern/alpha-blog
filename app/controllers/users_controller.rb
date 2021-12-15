@@ -1,5 +1,14 @@
 class UsersController < ApplicationController
-  before_action :set_user, only: [:edit, :update]
+  before_action :set_user, only: [:show, :edit, :update]
+
+  def index
+    @user = User.all
+  end
+  
+  def show
+    @articles = @user.articles
+  end
+
   def new
     @user = User.new
   end
@@ -21,7 +30,7 @@ class UsersController < ApplicationController
   def update
     if @user.update(user_params)
       flash[:notice] = "User information has been updated"
-      redirect_to root_path
+      redirect_to users_path
     else
       render 'edit'
     end
