@@ -16,6 +16,7 @@ gem 'will_paginate', '~> 3.3'
 
 
 
+
 gem 'bootsnap', '>= 1.4.4', require: false
 
 group :development, :test do
@@ -32,6 +33,9 @@ group :test do
   gem 'capybara', '>= 3.26'
   gem 'selenium-webdriver'
   gem 'webdrivers'
+  gem 'rspec', '~> 3.10'
+  gem 'rexml', require: false
+
 end
 
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
